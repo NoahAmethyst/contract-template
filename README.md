@@ -24,8 +24,7 @@ hardhat test
 also can test specific contract
 
 ```angular2html
-hardhat test test/
-<filename>
+hardhat test test/<filename>
 ```
 
 use hardhat to deploy the contract in hardhat
@@ -37,10 +36,8 @@ hardhat deploy
 if you want to deploy in specific network and account then use
 
 ```angular2html
-export PK=
-<your_privatekey>
-    hardhat deploy --network
-    <networkname>
+export PK=<your_privatekey>
+hardhat deploy --network <networkname>
 ```
 
 please noted that if [hardhat.config.ts](hardhat.config.ts) don't have the network configured you should add it
