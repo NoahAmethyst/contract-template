@@ -5,9 +5,9 @@
 ---
 To try the project first
 
-````
+```
 yarn install
-````
+```
 
 use hardhat to compile the contract
 
@@ -95,5 +95,3 @@ networks: {
     },
   },
 ```
-
-# contract-template
